@@ -32,10 +32,10 @@ model User {
   landmark            String
   nearestBusStop      String
   bvn                 String   @unique
-  validId             String  
-  companyRegDoc       String   
-  bankStatement       String   
-  utilityBill         String  
+  validId             String  @default("")
+  companyRegDoc       String   @default("")
+  bankStatement       String   @default("")
+  utilityBill         String  @default("")
   referralSource      String
 
   createdAt           DateTime @default(now())

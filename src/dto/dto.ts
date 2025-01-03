@@ -133,5 +133,5 @@ export class UserDTO {
   })
   @IsString()
   @IsOptional()
-  referralSource?: string;
+  referralSource: string;
 }

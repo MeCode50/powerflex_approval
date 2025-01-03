@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE `User` MODIFY `bankStatement` VARCHAR(191) NOT NULL DEFAULT '',
+    MODIFY `companyRegDoc` VARCHAR(191) NOT NULL DEFAULT '',
+    MODIFY `utilityBill` VARCHAR(191) NOT NULL DEFAULT '',
+    MODIFY `validId` VARCHAR(191) NOT NULL DEFAULT '';
