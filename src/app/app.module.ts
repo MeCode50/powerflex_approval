@@ -14,6 +14,7 @@ import { CloudinaryModule } from 'src/config/cloudinary/cloudinary.module';
 import { SendMailsModule } from 'src/config/email/sendMail.module';
 
 //module
+import { UserModule } from 'src/approval/user.module';
 
 @Module({
   imports: [
@@ -23,7 +24,7 @@ import { SendMailsModule } from 'src/config/email/sendMail.module';
     PrismaModule,
 
     CloudinaryModule,
-
+    UserModule,
     SendMailsModule,
   ],
   controllers: [AppController],
